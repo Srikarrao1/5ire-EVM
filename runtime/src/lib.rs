@@ -19,6 +19,7 @@ pub fn wasm_binary_unwrap() -> &'static [u8] {
 use codec::{Decode, Encode};
 use pallet_evm::FeeCalculator;
 use pallet_contracts::weights::WeightInfo;
+
 use frame_support::traits::Nothing;
 
 use frame_election_provider_support::{
